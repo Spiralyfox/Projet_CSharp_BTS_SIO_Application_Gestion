@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projet_CSharp_BTS_SIO_Application_Gestion", "Projet_CSharp_BTS_SIO_Application_Gestion\Projet_CSharp_BTS_SIO_Application_Gestion.csproj", "{FDEE5D15-9558-4845-AD99-90A1B3AC704B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDEE5D15-9558-4845-AD99-90A1B3AC704B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDEE5D15-9558-4845-AD99-90A1B3AC704B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDEE5D15-9558-4845-AD99-90A1B3AC704B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDEE5D15-9558-4845-AD99-90A1B3AC704B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
