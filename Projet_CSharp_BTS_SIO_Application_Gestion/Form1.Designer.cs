@@ -173,6 +173,7 @@ partial class Form1
         buttonsave.TabIndex = 13;
         buttonsave.Text = "Ajouter";
         buttonsave.UseVisualStyleBackColor = true;
+        buttonsave.Click += buttonsave_Click;
         // 
         // label9
         // 
@@ -208,6 +209,7 @@ partial class Form1
         buttondelete.TabIndex = 17;
         buttondelete.Text = "Supprimer";
         buttondelete.UseVisualStyleBackColor = true;
+        buttondelete.Click += buttondelete_Click;
         // 
         // label11
         // 
@@ -310,6 +312,7 @@ partial class Form1
         buttonEdit.TabIndex = 29;
         buttonEdit.Text = "Modifier";
         buttonEdit.UseVisualStyleBackColor = true;
+        buttonEdit.Click += buttonEdit_Click;
         // 
         // buttonUpdate
         // 
@@ -319,6 +322,7 @@ partial class Form1
         buttonUpdate.TabIndex = 30;
         buttonUpdate.Text = "Update";
         buttonUpdate.UseVisualStyleBackColor = true;
+        buttonUpdate.Click += buttonUpdate_Click;
         // 
         // Form1
         // 
@@ -357,6 +361,7 @@ partial class Form1
         Controls.Add(listBoxAppareils);
         Controls.Add(label1);
         Text = "Form1";
+        Load += Form1_Load;
         ResumeLayout(false);
         PerformLayout();
     }
